@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <header>
+        <h1>Leonardo do IMC</h1>
+    </header>
+    <br><br><br>
+
+      <div class="container">
+
+        <h2>Calculadora de IMC </h2>
+
+        <input placeholder="Qual é o seu peso (kg)? Ex: 70" type="number" id='peso' required="required">
+        <input placeholder="Qual é a sua altura (m)? Ex: 1,60" type="number" id='altura' required="required">
+        
+        <button id='calcular'>Calcular</button>
+        <br>
+        <button id='limpar' onclick="limpa()">Deletar</button>
+<center>
+        <div class="container_resultado" id='resultado'></div>
+</center>
+      </div>
+      <br><br><br><br><br><br>
+      <footer>
+        <ul>
+            <p>Leonardo João Fleith</li>
+            <br>
+            <p>Turma 2B</li>
+            <br>
+            <p>SESI / SENAI</li>
+        </ul>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
